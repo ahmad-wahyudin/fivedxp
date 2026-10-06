@@ -1,13 +1,12 @@
 # fivedxpl
 fivedxp linux loader (5dx+ 2.20.02 & 4 1.10.08)
-https://nightly.link/feathercx/fivedxp/workflows/build/master/release.zip
 
 # Common Sense is REQUIRED
 ### if your still using config.json, you will need to change it to config.toml
 # build
-- 1. Configure the project and generate the 32-bit build files
+- Configure the project and generate the 32-bit build files
 - ```cmake -B build```
-- 2. Compile and link the code into the shared library
+- Compile and link the code into the shared library
 - ```cmake --build build```
 
 # setup
